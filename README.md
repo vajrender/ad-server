@@ -15,7 +15,9 @@ Eg : {
 ## each post method with have a partner_id associated with it which is automatically generated.
 ## To look at the list of ads i.e list of json
 > http://localhost:8080/ad
+
 ## To search for a ad with a particular id
-> http://localhost:8080/id/<id_value>
+
+> http://localhost:8080/id/{id_value}
 
 ## The project uses a  Hsql db and does all the transaction in-memory.
